@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sgiobairog/qrer/issues"
   },
-  "homepage": "https://github.com/sgiobairog/qrer#readme"
+  "homepage": "https://github.com/sgiobairog/qrer#readme",
+  "devDependencies": {
+    "lerna": "^3.13.4"
+  }
 }

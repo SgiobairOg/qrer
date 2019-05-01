@@ -1,10 +1,17 @@
 window.onload = function() {
-    init();
-}
+  init();
+};
 
 function init() {
-    chrome.tabs.query({currentWindow: true, active: true}, function(tabs){
-        console.log(tabs[0].url);
-        new QRCode(document.getElementById("qrcode"), tabs[0].url);
-    });
+  if (!browser) var browser = chrome;
+
+  browser.tabs.query({ currentWindow: true, active: true }, function(tabs) {
+    var urlString = tabs[0].url;
+    var options = {
+      width: 256,
+      height: 256,
+      correctLevel: QRCode.CorrectLevel.M
+    };
+    var code = new QRCode("qrcode", urlString);
+  });
 }

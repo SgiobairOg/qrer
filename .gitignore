@@ -84,3 +84,10 @@ typings/
 .dynamodb/
 
 *.pem
+
+# OSX
+.DS_store
+
+# Builds
+dist/
+packages/*/dist

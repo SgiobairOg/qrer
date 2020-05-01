@@ -1,25 +1,29 @@
 {
   "name": "qrer",
-  "version": "0.0.1",
-  "description": "Google Chrome Extension which displays a QR code for the current page.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "independent",
+  "description": "Extension which displays a QR code for the current page.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sgiobairog/qrer.git"
   },
   "keywords": [
-    "Chrome"
+    "Chrome",
+    "Firefox",
+    "Extension"
   ],
-  "author": "Jason Wilson <jason.wilson@gmail.com>",
+  "commands": {
+    "publish": {
+      "skip-npm": true,
+      "message": "chore: release"
+    }
+  },
+  "author": "Jason Wilson <jason@wilsons.io>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sgiobairog/qrer/issues"
   },
   "homepage": "https://github.com/sgiobairog/qrer#readme",
   "devDependencies": {
-    "lerna": "^3.13.4"
+    "lerna": "^3.20.2"
   }
 }

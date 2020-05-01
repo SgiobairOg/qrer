@@ -1,6 +1,5 @@
 {
   "name": "qrer",
-  "version": "independent",
   "description": "Extension which displays a QR code for the current page.",
   "repository": {
     "type": "git",
@@ -11,12 +10,6 @@
     "Firefox",
     "Extension"
   ],
-  "commands": {
-    "publish": {
-      "skip-npm": true,
-      "message": "chore: release"
-    }
-  },
   "author": "Jason Wilson <jason@wilsons.io>",
   "license": "MIT",
   "bugs": {

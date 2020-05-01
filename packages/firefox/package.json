@@ -5,7 +5,8 @@
   "main": "background.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "zip": "cross-var bestzip dist/$npm_package_name-$npm_package_version.zip ./src/*"
+    "zip": "cd ./src && cross-var bestzip ../dist/$npm_package_name-$npm_package_version.zip ./*",
+    "pack": "cd ./src && cross-var npx web-ext build -s ./ -a ../dist -o"
   },
   "author": "Jason Wilson <jason@wilsons.io>",
   "license": "MIT",

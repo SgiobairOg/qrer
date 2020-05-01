@@ -1,6 +1,6 @@
 {
   "name": "qrer-chrome",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Chrome version of the QRer browser extension.",
   "main": "background.js",
   "scripts": {

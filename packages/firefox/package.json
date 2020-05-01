@@ -1,6 +1,6 @@
 {
   "name": "qrer-firefox",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Firefox version of the QRer browser extension.",
   "main": "background.js",
   "scripts": {

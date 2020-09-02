@@ -11,7 +11,7 @@
   "author": "Jason Wilson <jason@wilsons.io>",
   "license": "MIT",
   "devDependencies": {
-    "bestzip": "^2.1.2",
+    "bestzip": "^2.1.7",
     "cross-var": "^1.1.0"
   }
 }
